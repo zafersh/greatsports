@@ -13,6 +13,7 @@
 		E96C990B2B265A1D00634818 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96C990A2B265A1D00634818 /* Preview Assets.xcassets */; };
 		E96C99162B265AEE00634818 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C99152B265AEE00634818 /* Player.swift */; };
 		E96C99192B265D0700634818 /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C99182B265D0700634818 /* PlayersViewModel.swift */; };
+		E96C991B2B26612700634818 /* PlayersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C991A2B26612700634818 /* PlayersResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E96C990A2B265A1D00634818 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E96C99152B265AEE00634818 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E96C99182B265D0700634818 /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
+		E96C991A2B26612700634818 /* PlayersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				E96C99152B265AEE00634818 /* Player.swift */,
+				E96C991A2B26612700634818 /* PlayersResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				E96C99062B265A1B00634818 /* ContentView.swift in Sources */,
 				E96C99192B265D0700634818 /* PlayersViewModel.swift in Sources */,
 				E96C99162B265AEE00634818 /* Player.swift in Sources */,
+				E96C991B2B26612700634818 /* PlayersResponse.swift in Sources */,
 				E96C99042B265A1B00634818 /* Great_SportsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
