@@ -14,6 +14,8 @@
 		E96C99162B265AEE00634818 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C99152B265AEE00634818 /* Player.swift */; };
 		E96C99192B265D0700634818 /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C99182B265D0700634818 /* PlayersViewModel.swift */; };
 		E96C991B2B26612700634818 /* PlayersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C991A2B26612700634818 /* PlayersResponse.swift */; };
+		E96C991E2B2662EA00634818 /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C991D2B2662EA00634818 /* PlayersView.swift */; };
+		E96C99202B2669EA00634818 /* players.json in Resources */ = {isa = PBXBuildFile; fileRef = E96C991F2B2669EA00634818 /* players.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		E96C99152B265AEE00634818 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E96C99182B265D0700634818 /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
 		E96C991A2B26612700634818 /* PlayersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersResponse.swift; sourceTree = "<group>"; };
+		E96C991D2B2662EA00634818 /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
+		E96C991F2B2669EA00634818 /* players.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = players.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				E96C99052B265A1B00634818 /* ContentView.swift */,
 				E96C99072B265A1D00634818 /* Assets.xcassets */,
 				E96C99092B265A1D00634818 /* Preview Content */,
+				E96C991F2B2669EA00634818 /* players.json */,
 			);
 			path = "Great Sports";
 			sourceTree = "<group>";
@@ -78,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				E96C99122B265A4100634818 /* Models */,
+				E96C991C2B2662C500634818 /* View */,
 				E96C99172B265CD900634818 /* ViewModel */,
 			);
 			path = Players;
@@ -98,6 +104,14 @@
 				E96C99182B265D0700634818 /* PlayersViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E96C991C2B2662C500634818 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E96C991D2B2662EA00634818 /* PlayersView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +174,7 @@
 			files = (
 				E96C990B2B265A1D00634818 /* Preview Assets.xcassets in Resources */,
 				E96C99082B265A1D00634818 /* Assets.xcassets in Resources */,
+				E96C99202B2669EA00634818 /* players.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +190,7 @@
 				E96C99162B265AEE00634818 /* Player.swift in Sources */,
 				E96C991B2B26612700634818 /* PlayersResponse.swift in Sources */,
 				E96C99042B265A1B00634818 /* Great_SportsApp.swift in Sources */,
+				E96C991E2B2662EA00634818 /* PlayersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
